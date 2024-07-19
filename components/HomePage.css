@@ -1,0 +1,39 @@
+.home-page {
+  text-align: left;
+  padding: 20px;
+  grid-area: menu;
+  background-color: #f4f4f4;
+}
+
+.home-page h1 {
+  margin-bottom: 30px;
+  color: #3c078b;
+}
+
+.home-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home-page ul li,
+.home-page li {
+  margin-bottom: 15px;
+  background-color: #c1c0c4;
+  padding: 10px 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-page ul li a,
+.home-page li a {
+  text-decoration: none;
+  color: #3c078b;
+  font-size: 1.2rem;
+}
+
+.home-page ul li a:hover,
+.home-page li:hover {
+  text-decoration: underline;
+  background-color: #ccc;
+}
